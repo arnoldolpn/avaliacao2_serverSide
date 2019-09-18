@@ -1,0 +1,21 @@
+<div class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">
+      <%= project.titulo %>
+    </h5>
+    <p class="card-text">
+      <%= project.Description %>
+    </p>
+    </h6>
+    <p class="card-text">
+      <%= project.tempo %>
+    </p>
+    </h7>
+    <p class="card-text">
+      <%= project.salario %>
+    </p>    
+    <a href="mailto:?subject= <%= project.titulo %> &amp;body=Olá,%0D%0A%0D%0Agostaria de me candidatar a vaga: <%= project.titulo %>, segue meu curriculum em anexo%0D%0A%0D%0AAtenciosamente"<%= project.id %>" class="btn btn-primary">Candidatar-se</a>    
+  </div>
+</div>
+

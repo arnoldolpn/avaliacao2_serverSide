@@ -1,0 +1,14 @@
+.post-detail img{
+    width: 500px;
+    height: 300px;
+}
+
+.post-detail h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.wholePage {
+    background-image: url(../images/background.jpg);
+}

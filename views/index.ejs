@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    
+    <%- include('imports');-%>
+
+
+  </head>
+  <body>
+    <%- include('Menu');-%>
+    <div class="wholePage">
+
+    <div class="container">
+      <div class="row">
+        
+          <% posts.forEach((post) => { %>
+        
+            <%- include('post_card', { post: post }); -%>
+        
+          <% }); %>
+        
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
